@@ -1,0 +1,617 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all_page{
+    width: 100%;
+    min-height: 800px;
+    font-family: sans-serif;
+}
+
+.background1{
+    width: 100%;
+    min-height: 800px;
+    background-image: url(../img/back_cook.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.text_area{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    min-height: 800px;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+.rest{
+    width: 40%;
+    height: 30%;
+
+}
+.rest img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+.big_text{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    width: 70%;
+    height: 20%;
+    box-sizing: border-box;
+}
+.small_text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 52%;
+    height: 20%;
+    box-sizing: border-box;
+    line-height: 1.6em;
+
+}
+
+.icon{
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    height: 50px;
+}
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: rotate(180deg);
+}
+
+.menu{
+    font-family: serif;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5em;
+    font-size: 30px;
+    width: 100%;
+    min-height: 800px;
+    background-color: #f2f2f2;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.menu_t{
+
+    width: 100%;
+    height: 30%;
+}
+.our_menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    color: gray;
+}
+.delicius{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+
+}
+
+
+
+.grid_box{
+    font-size: 20px;
+    display: flex;    
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+}
+
+
+.grid_list{
+    justify-items: center;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: auto auto;
+    width: 80%;
+    height: 100%;
+}
+
+.menu_box{
+    width: 80%;
+    height: 100%;
+
+}
+
+.name_price{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    
+    margin: 0 auto;
+}
+.name_price h3{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.ingredients{
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 2em;
+    width: 100%;
+    height: 60%;
+
+
+}
+
+.ice_cream{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-image: url(../img/ed-min.jpg);
+
+}
+.products_box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+}
+
+.type{
+    width: 30%;
+    height: 45%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    height: 30%;
+}
+.image img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.text{
+    text-align: center;
+    width: 80%;
+    height: 30%;
+    color: white;
+}
+
+.text_picture_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 1200px;
+    
+}
+
+.p_t_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 80%;
+}
+.text_picture_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.picture_text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+
+}
+.only_image{
+    width: calc(100%/3);
+    height: 500px;
+}
+.only_text{
+    display: flex;
+    justify-content: center;
+    width: calc(100%/3);
+    height: 500px;
+
+}
+.text_area2{
+    font-weight: 100;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    height: 60%;
+    background-color: white;
+    font-family: serif;
+}
+
+.text_area2 h4{
+    font-weight: 100;
+    width: 100%;
+    height: 30%;
+}
+
+.text_area2 h3{
+    width: 100%;
+    height: 30%;
+
+}
+
+.text_area2 p{
+    width: 100%;
+    height: 40%;
+    
+}
+.text_area2 a{
+    width: 100%;
+    height: 20%;
+    color:black
+}
+
+.health_box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-color:#f2f2f2 ;
+}
+.t_p_health{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+}
+.t_h_box{
+    line-height: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+}
+.p_h{
+    width: 50%;
+    height: 90%;
+
+}
+.p_h img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.t_h {
+    text-align: center;
+    font-size: 20px;
+    width: 75%;
+    height: 90%;
+}
+.t_h h1{
+
+    font-size: 45px;
+    width: 100%;
+    height: 20%;
+}
+.t_h p{
+    font-size: 20px;
+    width: 100%;
+    height: 80%;
+}
+.t_h a{
+
+    color: black;
+    width: 100%;
+    height: 20%;
+}
+.bakery_box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-color:#f2f2f2 ;
+}
+
+.t_p_bakery{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 90%;
+}
+.p_b{
+    width: 50%;
+    height: 100%;
+}
+.p_b img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.t_b_box{
+    display: flex;
+    justify-content: center;
+    line-height: 2.5em;
+    width: 50%;
+    height: 100%;
+
+}
+.t_b_text{
+    letter-spacing: 2px;
+    font-size: 20px;
+    width: 65%;
+    height: 80%;
+}
+.t_b_text h3{
+    display: flex;
+    align-items: flex-end;
+    font-weight: 100;
+    width: 100%;
+    height: 20%;
+}
+.t_b_text h1{
+    width: 100%;
+    height: 10%;
+}
+.t_b_text h2{
+    font-size: 5em;
+    display: flex;
+    justify-content: flex-end;
+    transform: rotate(180deg);
+    width: 100%;
+    height: 15%;
+}
+.t_b_text p{
+    width: 100%;
+    height: 60%;
+}
+.t_b_text span{
+    width: 100%;
+    height: 20%;
+}
+
+.animation_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+
+}
+
+.animation_text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    width: 80%;
+    height: 20%;
+}
+
+.animation_text h1{
+  text-align: center;
+    font-size: 50px;
+    width: 100%;
+    height: 40%;
+}
+.animation_text p{
+    text-align: center;
+    width: 100%;
+    height: 30%;
+}
+
+.box_with_but{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    
+}
+
+.only_anim_list{
+
+  
+   overflow: hidden;
+    width: 60%;
+    height: 80%;
+    
+}
+
+.animation_list1{
+     /* animation: my;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:10px;
+    width: 100%;
+    height: 100%;
+}
+
+.picture{
+   
+    width: 100%;
+    height: 100%;
+}
+
+.picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .animation_list2{
+    
+     animation: my;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:10px;
+    width: 100%;
+    height: 100%;
+} */
+
+@keyframes my{
+    0% {transform: translateX(0);}
+    50% {transform: translateX(100%);}
+    100% {transform: translateX(0);}
+    
+}
+
+.but_anim1{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    right: 35%;
+    bottom: 35%;
+
+}
+
+.but_anim1 img{
+    transform: rotate(90deg);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.but_anim2{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    left: 35%;
+    bottom: 35%;
+
+}
+
+.but_anim2 img{
+    transform: rotate(270deg);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.but_read_more{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+.but_read_more a{
+  color:black;
+}
+
+
+.kitchen_box{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    min-height: 500px;
+   
+}
+.kitchen{
+    
+    width: calc(100%/3);
+    height: 100%;
+}
+
+.kitchen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.end_text_box{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-color:#f2f2f2 ;
+}
+.text_end{
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    width: 80%;
+    height: 60%;
+}
+
+.icon_logo{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.icon_logo li{
+    
+    display: inline;
+}
